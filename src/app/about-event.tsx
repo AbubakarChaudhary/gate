@@ -140,6 +140,15 @@ export function AboutEvent() {
               demonstrations, expert panels, and hands-on experiences that
               reflect the evolving scope of advanced endoscopy.&quot;
             </Typography>
+
+               <div className="mb-6">
+                  <img
+                    src="/doctors/Abdulrahman Alfadda.jpeg"
+                    alt="director"
+                    className="mx-auto border-4 border-light-blue-100 shadow-xl w-32 h-32 text-4xl rounded-full"
+                  />
+                </div>
+
             <div className="space-y-2">
               <Typography
                 variant="h6"
@@ -169,6 +178,13 @@ export function AboutEvent() {
 
               <div className="flex flex-col sm:flex-row gap-4 mt-4 pt-4 border-t border-gray-200">
                 <div className="flex-1">
+                    <div className="mb-6">
+                  <img
+                    src="/doctors/Shaimaa Elkholy.jpeg"
+                    alt="co-director"
+                    className="inline-block relative object-cover !rounded-full w-[110px] h-[110px] rounded-2xl bg-light-blue-100 bg-blend-multiply mx-auto border-4 border-light-blue-100 shadow-lg object-top"
+                  />
+                </div>
                   <Typography
                     variant="h6"
                     color="light-blue"
@@ -205,6 +221,13 @@ export function AboutEvent() {
                   </Typography>
                 </div>
                 <div className="flex-1">
+                     <div className="mb-6">
+                  <img
+                    src="/doctors/Mohamad Elsherbiny.jpeg"
+                    alt="co-director"
+                    className="inline-block relative object-cover !rounded-full w-[110px] h-[110px] rounded-2xl bg-light-blue-100 bg-blend-multiply mx-auto border-4 border-light-blue-100 shadow-lg object-top"
+                  />
+                </div>
                   <Typography
                     variant="h6"
                     color="light-blue"

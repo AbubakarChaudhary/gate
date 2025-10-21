@@ -40,20 +40,21 @@ function AvatarWithFallback({
 }: {
   src: string;
   alt: string;
-  size: "sm" | "md" | "lg" | "xl" | "xxl";
+  size: "sm" | "md" | "lg" | "xl" | "xxl"  ;
   className?: string;
 }) {
   const [imageError, setImageError] = useState(false);
   const initials = getInitials(alt);
 
   // Size mappings for the fallback div
-  const sizeClasses = {
-    sm: "w-10 h-10 text-sm",
-    md: "w-12 h-12 text-base",
-    lg: "w-16 h-16 text-lg",
-    xl: "w-20 h-20 text-xl",
-    xxl: "w-32 h-32 text-3xl",
-  };
+const sizeClasses = {
+  sm: "w-12 h-12 text-base",
+  md: "w-16 h-16 text-lg",
+  lg: "w-20 h-29 text-xl",
+  xl: "w-32 h-32 text-3xl",
+  xxl: "w-40 h-40 text-4xl",
+};
+
 
   if (imageError) {
     return (
@@ -1213,8 +1214,8 @@ export function Speakers() {
                       <AvatarWithFallback
                         src={director.image}
                         alt={director.name}
-                        size="xl"
-                        className="mx-auto border-4 border-light-blue-100 shadow-lg"
+                        size="xxl"
+                        className="mx-auto border-4 border-light-blue-100 shadow-lg object-top"
                       />
                     </div>
 
@@ -1326,7 +1327,7 @@ export function Speakers() {
                 <AvatarWithFallback
                   src={ORGANIZING_COMMITTEE.head.image}
                   alt={ORGANIZING_COMMITTEE.head.name}
-                  size="xl"
+                  size="xxl"
                   className="mx-auto border-4 border-light-blue-100 shadow-lg mb-4"
                 />
                 <Typography
@@ -1384,7 +1385,7 @@ export function Speakers() {
                     <AvatarWithFallback
                       src={member.image}
                       alt={member.name}
-                      size="lg"
+                      size="xl"
                       className={`mx-auto border-2 border-light-blue-100 shadow-md mb-3 ${
                         member.imageCenter === "down" ? "object-top" : "object-center"
                       }`}
@@ -1462,7 +1463,7 @@ export function Speakers() {
                 <AvatarWithFallback
                   src={SCIENTIFIC_COMMITTEE.head.image}
                   alt={SCIENTIFIC_COMMITTEE.head.name}
-                  size="xl"
+                  size="xxl"
                   className="mx-auto border-4 border-light-blue-100 shadow-lg mb-4"
                 />
                 <Typography
@@ -1537,7 +1538,7 @@ export function Speakers() {
                     <AvatarWithFallback
                       src={member.image}
                       alt={member.name}
-                      size="lg"
+                      size="xl"
                       className={`mx-auto border-2 border-light-blue-100 shadow-md mb-3 ${
                         member.imageCenter === "down" ? "object-top" : "object-center"
                       }`}
@@ -1566,7 +1567,7 @@ export function Speakers() {
                     >
                       {member.title}
                     </Typography>
-                    {/* 
+                    {/*
                     <Typography
                       variant="small"
                       color="gray"
