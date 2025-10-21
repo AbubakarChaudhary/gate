@@ -86,7 +86,7 @@ export function Navbar() {
         <div className="flex items-center gap-4">
           <div className="flex items-center">
             <Image
-              src="/image/logo.png"
+              src="/public/image/logo.png"
               alt="GATE 2025 Logo"
               width={120}
               height={60}
