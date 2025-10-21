@@ -78,11 +78,11 @@ export function Registration() {
     try {
       // Send data to Google Sheets using server action
       const result = await submitRegistration(formData);
-      
+
       if (result.success) {
         // Show success modal instead of alert
         setShowSuccessModal(true);
-        
+
         // Reset form
         setFormData({
           firstName: "",
@@ -97,12 +97,14 @@ export function Registration() {
         });
       } else if (result.error === "EMAIL_EXISTS") {
         // Show browser alert for duplicate email
-        alert("This email address has already been registered for GATE 2025. Please use a different email address or contact us if you need assistance.");
+        alert(
+          "This email address has already been registered for GATE 2025. Please use a different email address or contact us if you need assistance."
+        );
       } else {
         throw new Error(result.error || "Failed to submit registration");
       }
     } catch (error) {
-      console.error('Registration error:', error);
+      console.error("Registration error:", error);
       setShowError(true);
       setTimeout(() => setShowError(false), 5000);
     } finally {
@@ -171,8 +173,22 @@ export function Registration() {
           viewport={{ once: true }}
           className="max-w-4xl mx-auto"
         >
-          <Card className="shadow-2xl" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-            <CardBody className="p-8" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+          <Card
+            className="shadow-2xl"
+            placeholder={undefined}
+            onResize={undefined}
+            onResizeCapture={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
+            <CardBody
+              className="p-8"
+              placeholder={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+            >
               <Typography
                 variant="h4"
                 color="blue-gray"
@@ -199,7 +215,16 @@ export function Registration() {
               <form onSubmit={handleSubmit} className="space-y-6">
                 {/* Personal Information */}
                 <div>
-                  <Typography variant="h6" color="blue-gray" className="mb-4" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                  <Typography
+                    variant="h6"
+                    color="blue-gray"
+                    className="mb-4"
+                    placeholder={undefined}
+                    onResize={undefined}
+                    onResizeCapture={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
                     Personal Information
                   </Typography>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -238,7 +263,16 @@ export function Registration() {
 
                 {/* Contact Information */}
                 <div>
-                  <Typography variant="h6" color="blue-gray" className="mb-4" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                  <Typography
+                    variant="h6"
+                    color="blue-gray"
+                    className="mb-4"
+                    placeholder={undefined}
+                    onResize={undefined}
+                    onResizeCapture={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
                     Contact Information
                   </Typography>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -278,7 +312,16 @@ export function Registration() {
 
                 {/* Professional Information */}
                 <div>
-                  <Typography variant="h6" color="blue-gray" className="mb-4" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                  <Typography
+                    variant="h6"
+                    color="blue-gray"
+                    className="mb-4"
+                    placeholder={undefined}
+                    onResize={undefined}
+                    onResizeCapture={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
                     Professional Information
                   </Typography>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
@@ -314,25 +357,34 @@ export function Registration() {
                     />
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <Select
-                      label="Profession"
-                      value={formData.profession}
-                      onChange={(value) =>
-                        handleInputChange("profession", value)
-                      }
-                      placeholder={undefined}
-                      onResize={undefined}
-                      onResizeCapture={undefined}
-                      onPointerEnterCapture={undefined}
-                      onPointerLeaveCapture={undefined}
-                    >
-                      <Option value="consultant">Consultant Physician</Option>
-                      <Option value="resident">Resident/Fellow</Option>
-                      <Option value="nurse">Nurse</Option>
-                      <Option value="technician">Technician</Option>
-                      <Option value="researcher">Researcher</Option>
-                      <Option value="other">Other</Option>
-                    </Select>
+                    <div>
+                      <Select
+                        label="Profession*"
+                        value={formData.profession}
+                        onChange={(value) =>
+                          handleInputChange("profession", value)
+                        }
+                        placeholder={undefined}
+                        onResize={undefined}
+                        onResizeCapture={undefined}
+                        onPointerEnterCapture={undefined}
+                        onPointerLeaveCapture={undefined}
+                      >
+                        <Option value="consultant">Consultant Physician</Option>
+                        <Option value="resident">Resident/Fellow</Option>
+                        <Option value="nurse">Nurse</Option>
+                        <Option value="technician">Technician</Option>
+                        <Option value="researcher">Researcher</Option>
+                        <Option value="other">Other</Option>
+                      </Select>
+                      {/* ✅ Hidden input makes it required */}
+                      <input
+                        type="hidden"
+                        name="profession"
+                        value={formData.profession}
+                        required
+                      />
+                    </div>
                     <Input
                       label="Specialization"
                       value={formData.specialization}
@@ -352,7 +404,16 @@ export function Registration() {
 
                 {/* Additional Information */}
                 <div>
-                  <Typography variant="h6" color="blue-gray" className="mb-4" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+                  <Typography
+                    variant="h6"
+                    color="blue-gray"
+                    className="mb-4"
+                    placeholder={undefined}
+                    onResize={undefined}
+                    onResizeCapture={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
                     Additional Information
                   </Typography>
                   <Textarea
@@ -482,8 +543,9 @@ export function Registration() {
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}
             >
-              We&apos;ve received your registration and will send you a confirmation email shortly. 
-              Looking forward to seeing you at the conference!
+              We&apos;ve received your registration and will send you a
+              confirmation email shortly. Looking forward to seeing you at the
+              conference!
             </Typography>
           </DialogBody>
           <DialogFooter

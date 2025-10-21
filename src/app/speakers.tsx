@@ -394,7 +394,7 @@ const INTERNATIONAL_FACULTY = [
     bio: "",
     imageCenter: "down",
   },
-  {
+ /*  {
     name: "Dr. Wadha Aljaser",
     title: "Consultant, Gastroenterology & Hepatology",
     institution: "Al-Amiri Hospital, Kuwait",
@@ -403,7 +403,7 @@ const INTERNATIONAL_FACULTY = [
     specialization: "Gastroenterology & Hepatology",
     image: "/doctors/Wadha Al-Jaser.jpeg",
     bio: "",
-  },
+  }, */
   {
     name: "Dr. Piyush Somani",
     title: "Consultant, Gastroenterology",
