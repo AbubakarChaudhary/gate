@@ -164,7 +164,7 @@ const PROGRAM_DAYS = [
         title: "Live Endoscopy",
         type: "live-demo",
         speaker:
-          "Chairpersons: Abdulaziz Almasoud, Abdullah Almutawa, Ammar Alotaibi, Mohamed Alboraie, Turki Alamri",
+          "Chairpersons: Abdulaziz Almasoud, Abdullah Almtawa, Ammar Alotaibi, Mohamed Alboraie, Turki Alamri",
         description: "Live demonstration of upper GI procedures",
       },
       {
@@ -187,7 +187,7 @@ const PROGRAM_DAYS = [
         title:
           "Training and Competency in ESD: Building Expertise in Complex Procedures - Dr. Mohamed Othman",
         type: "lecture",
-        speaker: "Chairpersons: Abdulrahman Alfadda, Bader Alajlan, Majid Alsahafi, Mohamed Abdelhafiz",
+        speaker: "Chairpersons: Abdulrahman Alfadda, Bader Alajlan, Majid Alsahafi,Mohamed Abdelhafez",
         description: "Educational pathways for ESD competency development",
       },
       {
@@ -252,7 +252,7 @@ const PROGRAM_DAYS = [
         title:
           "Eosinophilic Esophagitis Management: How the Future Can Be Shaped - Dr. Mashiko Setshedi",
         type: "lecture",
-        speaker: "Chairpersons: Abdullah Alshahrani, Abdullah Alshehri, Abdullah Burwaiss, Mohammed Albisher, Shakir Bakkari",
+        speaker: "Chairpersons: Abdullah Alshahrani, Abdullah Alshehri, Abdullah Burwais, Mohammed Albisher, Shakir Bakkari",
         description: "Future directions in eosinophilic esophagitis treatment",
       },
       {
@@ -260,7 +260,7 @@ const PROGRAM_DAYS = [
         title: "Live Endoscopy",
         type: "live-demo",
         speaker:
-          "Abdullah Alshahrani, Abdullah Alshehri, Abdullah Burwaiss, Mohammed Albisher, Shakir Bakkari",
+          "Abdullah Alshahrani, Abdullah Alshehri, Abdullah Burwais, Mohammed Albisher, Shakir Bakkari",
         description: "Live demonstration of advanced endoscopic procedures",
       },
       {
@@ -351,14 +351,14 @@ const PROGRAM_DAYS = [
         title:
           "Long Term Outcomes of Endoscopic Sleeve Gastroplasty: What Have We Learned? - Prof. Aayed Alqahtani",
         type: "lecture",
-        speaker: "Chairpersons: Abdullah Altawili, Adeeb Elghalayini, Ahmed Bazerbashi, Meteb Alabdulwahab",
+        speaker: "Chairpersons: Abdullh Ahmad Altawili, Adeeb Elghalayini, Ahmed Bazerbashi, Meteb Alabdulwahab",
         description: "Comprehensive analysis of ESG long-term results",
       },
       {
         time: "3:35 – 3:55",
         title: "Endoscopic Treatment of Weight Regain after Sleeve Gastrectomy",
         type: "lecture",
-        speaker: "Dr. Abdullah Almusa",
+        speaker: "Dr. Abdullah Al-Mousa",
         description: "Management strategies for post-sleeve weight regain",
       },
       {
@@ -417,7 +417,7 @@ const PROGRAM_DAYS = [
         time: "8:30 – 10:30",
         title: "2-EUS",
         type: "workshop",
-        speaker: "Prof. Hussain Okasha",
+        speaker: "Prof. Hussein Okasha",
         description: "Masterclass on endoscopic ultrasound",
       },
       {
@@ -501,7 +501,7 @@ const PROGRAM_DAYS = [
         time: "10:45 – 12:15",
         title: "Station 8: Hemostasis Procedures",
         type: "workshop",
-        speaker: "Dr. Abdullah Altawili",
+        speaker: "Dr. Abdullh Ahmad Altawili",
         description: "Hands-on training on endoscopic hemostasis",
       },
       {
@@ -522,7 +522,7 @@ const PROGRAM_DAYS = [
         time: "1:15 – 3:15",
         title: "Station 1: ESG Procedure",
         type: "workshop",
-        speaker: "Dr. Abdullah Almusa",
+        speaker: "Dr. Abdullah Al-Mousa",
         description: "Hands-on training on endoscopic sleeve gastroplasty",
       },
       {
@@ -557,7 +557,7 @@ const PROGRAM_DAYS = [
         time: "1:15 – 3:15",
         title: "Station 6: Perforation Closure",
         type: "workshop",
-        speaker: "Dr. Mohammed Abdelhafiz",
+        speaker: "Dr. Mohamed Abdelhafez",
         description: "Hands-on training on endoscopic perforation closure",
       },
       {

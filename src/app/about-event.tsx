@@ -238,7 +238,7 @@ export function AboutEvent() {
                     onPointerEnterCapture={undefined}
                     onPointerLeaveCapture={undefined}
                   >
-                    Dr. Mohamad Elsherbiny
+                    Dr. Mohammad El Sherbiny
                   </Typography>
                   <Typography
                     variant="small"

@@ -111,7 +111,7 @@ const CO_DIRECTORS = [
     bio: "",
   },
   {
-    name: "Dr. Mohamad Elsherbiny",
+    name: "Dr. Mohammad El Sherbiny",
     title: "Co-Director",
     institution: "Cairo University (Qasr El Eyni, Cairo, Egypt)",
     country: "Egypt",
@@ -133,7 +133,7 @@ const ORGANIZING_COMMITTEE = {
   },
   members: [
     {
-      name: "Dr. Abdullah Almusa",
+      name: "Dr. Abdullah Al-Mousa",
       title: "Committee Member",
       institution: "King Faisal Specialist Hospital & Research Centre",
       country: "Saudi Arabia",
@@ -196,7 +196,7 @@ const ORGANIZING_COMMITTEE = {
 
 const SCIENTIFIC_COMMITTEE = {
   head: {
-    name: "Dr. Meteb Abdulwahab",
+    name: "Dr. Motib Alabdulwahhab",
     title: "Head of Scientific Committee",
     institution: "King Faisal Specialist Hospital & Research Centre",
     country: "Saudi Arabia",
@@ -213,7 +213,7 @@ const SCIENTIFIC_COMMITTEE = {
       image: "/doctors/Abdullah Alshahrani.jpeg",
     },
     {
-      name: "Dr. Eyad Ghadour",
+      name: "Dr. Eyad Gadour",
       title: "Committee Member",
       institution: "King Faisal Specialist Hospital & Research Centre",
       country: "Saudi Arabia",
@@ -229,7 +229,7 @@ const SCIENTIFIC_COMMITTEE = {
       image: "/doctors/Hesham Aljohany.jpeg",
     },
     {
-      name: "Dr. Hussain Okasha",
+      name: "Dr. Hussein Okasha",
       title: "Committee Member",
       institution: "King Faisal Specialist Hospital & Research Centre",
       country: "Egypt",
@@ -415,7 +415,7 @@ const INTERNATIONAL_FACULTY = [
     bio: "",
   },
   {
-    name: "Mohamed Abdelhafiz",
+    name: "Mohamed Abdelhafez",
     title: "Medical Professional",
     institution: "UAE",
     country: "UAE",
@@ -450,9 +450,9 @@ const INTERNATIONAL_FACULTY = [
   {
     name: "Dr. Abdullah Burwais",
     title: "Consultant",
-    institution: "UAE",
-    country: "UAE",
-    countryCode: "AE",
+    institution: "Libya",
+    country: "Libya",
+    countryCode: "LY",
     specialization: "Gastroenterology",
     image: "/doctors/Abdullah Burwais.jpeg",
     bio: "",
@@ -611,7 +611,7 @@ const NATIONAL_FACULTY = [
     bio: "",
   },
   {
-    name: "Dr. Abdullah Altawili",
+    name: "Dr. Abdullh Ahmad Altawili",
     title: "Consultant",
     institution: "King Faisal Specialist Hospital & Research Centre",
     country: "Saudi Arabia",
@@ -689,7 +689,7 @@ const NATIONAL_FACULTY = [
     bio: "",
   },
   {
-    name: "Dr. Abdulaziz Omar Almasoud",
+    name: "Dr. Abdulaziz Omar M Almasoud",
     title: "Consultant",
     institution: "King Faisal Specialist Hospital & Research Centre",
     country: "Saudi Arabia",
@@ -699,7 +699,7 @@ const NATIONAL_FACULTY = [
     bio: "",
   },
   {
-    name: "Dr. Abdullah Almutawa",
+    name: "Dr. Abdullah Almtawa",
     title: "Consultant",
     institution: "King Faisal Specialist Hospital & Research Centre",
     country: "Saudi Arabia",
