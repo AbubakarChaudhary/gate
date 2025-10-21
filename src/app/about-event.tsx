@@ -95,7 +95,7 @@ export function AboutEvent() {
             Research Centre, this three-day summit will showcase breakthrough
             techniques, innovative technologies, and the future of minimally
             invasive procedures.
-      </Typography>
+          </Typography>
 
           {/* Welcome message from Dr. Alfadda */}
           <motion.div
@@ -116,9 +116,9 @@ export function AboutEvent() {
               onPointerLeaveCapture={undefined}
             >
               Welcome Message
-      </Typography>
-      <Typography
-        variant="lead"
+            </Typography>
+            <Typography
+              variant="lead"
               color="gray"
               className="italic mb-4"
               placeholder={undefined}
@@ -141,13 +141,13 @@ export function AboutEvent() {
               reflect the evolving scope of advanced endoscopy.&quot;
             </Typography>
 
-               <div className="mb-6">
-                  <img
-                    src="/doctors/Abdulrahman Alfadda.jpeg"
-                    alt="director"
-                    className="mx-auto border-4 border-light-blue-100 shadow-xl w-32 h-32 text-4xl rounded-full"
-                  />
-                </div>
+            <div className="mb-6">
+              <img
+                src="/doctors/Abdulrahman Alfadda.jpeg"
+                alt="director"
+                className="mx-auto border-4 border-light-blue-100 shadow-xl w-32 h-32 text-4xl rounded-full"
+              />
+            </div>
 
             <div className="space-y-2">
               <Typography
@@ -178,13 +178,13 @@ export function AboutEvent() {
 
               <div className="flex flex-col sm:flex-row gap-4 mt-4 pt-4 border-t border-gray-200">
                 <div className="flex-1">
-                    <div className="mb-6">
-                  <img
-                    src="/doctors/Shaimaa Elkholy.jpeg"
-                    alt="co-director"
-                    className="inline-block relative object-cover !rounded-full w-[110px] h-[110px] rounded-2xl bg-light-blue-100 bg-blend-multiply mx-auto border-4 border-light-blue-100 shadow-lg object-top"
-                  />
-                </div>
+                  <div className="mb-6">
+                    <img
+                      src="/doctors/Shaimaa Elkholy.jpeg"
+                      alt="co-director"
+                      className="inline-block relative object-cover !rounded-full w-[110px] h-[110px] rounded-2xl bg-light-blue-100 bg-blend-multiply mx-auto border-4 border-light-blue-100 shadow-lg object-top"
+                    />
+                  </div>
                   <Typography
                     variant="h6"
                     color="light-blue"
@@ -221,13 +221,13 @@ export function AboutEvent() {
                   </Typography>
                 </div>
                 <div className="flex-1">
-                     <div className="mb-6">
-                  <img
-                    src="/doctors/Mohamad Elsherbiny.jpeg"
-                    alt="co-director"
-                    className="inline-block relative object-cover !rounded-full w-[110px] h-[110px] rounded-2xl bg-light-blue-100 bg-blend-multiply mx-auto border-4 border-light-blue-100 shadow-lg object-top"
-                  />
-                </div>
+                  <div className="mb-6">
+                    <img
+                      src="/doctors/Mohamad Elsherbiny.jpeg"
+                      alt="co-director"
+                      className="inline-block relative object-cover !rounded-full w-[110px] h-[110px] rounded-2xl bg-light-blue-100 bg-blend-multiply mx-auto border-4 border-light-blue-100 shadow-lg object-top"
+                    />
+                  </div>
                   <Typography
                     variant="h6"
                     color="light-blue"
@@ -266,6 +266,27 @@ export function AboutEvent() {
               </div>
             </div>
           </motion.div>
+        </motion.div>
+
+        {/*  Hero Video */}
+
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: 0.1 }}
+          viewport={{ once: true }}
+          className="mt-16 mb-16"
+        >
+          <div className="flex justify-center my-8">
+            <video
+              src="/videos/intro-video.mp4"
+              controls
+              autoPlay
+              loop
+              muted
+              className="rounded-2xl shadow-xl w-full max-w-3xl"
+            />
+          </div>
         </motion.div>
 
         {/* Mission Section */}
@@ -515,7 +536,7 @@ export function AboutEvent() {
                   onPointerLeaveCapture={undefined}
                 >
                   {info.description}
-      </Typography>
+                </Typography>
               </div>
             </motion.div>
           ))}
