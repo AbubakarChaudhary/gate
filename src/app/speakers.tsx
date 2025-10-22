@@ -560,6 +560,16 @@ const NATIONAL_FACULTY = [
     bio: "",
   },
   {
+    name: "Dr. Faisal Aladwani",
+    title: "Consultant",
+    institution: "King Faisal Specialist Hospital & Research Centre",
+    country: "Saudi Arabia",
+    countryCode: "SA",
+    specialization: "Gastroenterology",
+    image: "/doctors/Faisal-aladwani.jpg",
+    bio: "",
+  },
+  {
     name: "Dr. Nawaf Alotaibi",
     title: "Consultant",
     institution: "King Faisal Specialist Hospital & Research Centre",
