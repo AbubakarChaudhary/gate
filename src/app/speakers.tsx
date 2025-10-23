@@ -1078,7 +1078,7 @@ export function Speakers() {
             Conference Director
           </Typography>
           <div className="max-w-2xl mx-auto">
-            <Card className="h-full hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 relative overflow-hidden group">
+            <Card className="h-full hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 relative overflow-hidden group !bg-blue-50">
               {/* Director badge */}
               <div className="absolute top-4 right-4 bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-4 py-2 rounded-full flex items-center gap-2 z-10">
                 <StarIcon className="h-5 w-5" />
@@ -1221,7 +1221,7 @@ export function Speakers() {
                 transition={{ duration: 0.3, delay: idx * 0.05 }}
                 viewport={{ once: true }}
               >
-                <Card className="h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-1 relative overflow-hidden group">
+                <Card className="h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-1 relative overflow-hidden group !bg-blue-50">
                   {/* Co-Director badge */}
                   <div className="absolute top-4 right-4 bg-gradient-to-r from-blue-400 to-purple-500 text-white px-3 py-1 rounded-full flex items-center gap-1 z-10">
                     <UserIcon className="h-4 w-4" />
@@ -1356,7 +1356,7 @@ export function Speakers() {
 
           {/* Committee Head */}
           <div className="max-w-md mx-auto mb-8">
-            <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+            <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 !bg-blue-50">
               <CardBody className="text-center p-6">
                 <AvatarWithFallback
                   src={ORGANIZING_COMMITTEE.head.image}
@@ -1414,7 +1414,7 @@ export function Speakers() {
                 transition={{ duration: 0.3, delay: idx * 0.03 }}
                 viewport={{ once: true }}
               >
-                <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 !bg-blue-50">
                   <CardBody className="text-center p-4">
                     <AvatarWithFallback
                       src={member.image}
@@ -1504,7 +1504,7 @@ export function Speakers() {
 
           {/* Committee Head */}
           <div className="max-w-md mx-auto mb-8">
-            <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+            <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 !bg-blue-50">
               <CardBody className="text-center p-6">
                 <AvatarWithFallback
                   src={SCIENTIFIC_COMMITTEE.head.image}
@@ -1579,7 +1579,7 @@ export function Speakers() {
                 transition={{ duration: 0.3, delay: idx * 0.03 }}
                 viewport={{ once: true }}
               >
-                <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 !bg-blue-50">
                   <CardBody className="text-center p-4">
                     <AvatarWithFallback
                       src={member.image}
@@ -1675,7 +1675,7 @@ export function Speakers() {
                 transition={{ duration: 0.3, delay: idx * 0.02 }}
                 viewport={{ once: true }}
               >
-                <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 h-full">
+                <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 h-full !bg-blue-50">
                   <CardBody className="text-center p-6">
                     <AvatarWithFallback
                       src={faculty.image}
@@ -1793,7 +1793,7 @@ export function Speakers() {
                 transition={{ duration: 0.3, delay: idx * 0.02 }}
                 viewport={{ once: true }}
               >
-                <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 h-full">
+                <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 h-full !bg-blue-50">
                   <CardBody className="text-center p-6">
                     <AvatarWithFallback
                       src={faculty.image}
