@@ -13,7 +13,136 @@ const LINKS = [
 export function Footer() {
   return (
     <footer className="pb-5 p-10 md:pt-10">
-      <div className="container flex flex-col mx-auto">
+      {/* CONTACT SECTION */}
+      <section id="contact" className="bg-gray-50 py-16">
+        <div className="max-w-4xl mx-auto px-6">
+          <Typography
+            variant="h2"
+            className="text-center mb-10 font-bold text-blue-gray-800"
+            placeholder={undefined}
+            onResize={undefined}
+            onResizeCapture={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
+            Contact Us
+          </Typography>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            {/* Contact Info */}
+            <div className="space-y-8">
+              {/* Email */}
+              <div className="flex items-center gap-4">
+                <div className="p-3 bg-blue-100 rounded-full">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-6 h-6 text-blue-600"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3 8l9 6 9-6M4 6h16a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V8a2 2 0 012-2z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-blue-gray-700">
+                    Email
+                  </h3>
+                  <a
+                    href="mailto:info@ksagate.org"
+                    className="text-blue-600 hover:underline text-lg"
+                  >
+                    info@ksagate.org
+                  </a>
+                </div>
+              </div>
+
+              {/* Phone */}
+              <div className="flex items-center gap-4">
+                <div className="p-3 bg-blue-100 rounded-full">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-6 h-6 text-blue-600"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.072 3.214a1 1 0 01-.272 1.02l-1.52 1.52a16.001 16.001 0 006.364 6.364l1.52-1.52a1 1 0 011.02-.272l3.214 1.072A1 1 0 0121 18.72V22a2 2 0 01-2 2h-1C9.163 24 0 14.837 0 3V2a2 2 0 012-2h1z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-blue-gray-700">
+                    Phone
+                  </h3>
+                  <a
+                    href="tel:+966114424729"
+                    className="text-blue-600 hover:underline text-lg"
+                  >
+                    +966 11 442 4729
+                  </a>
+                </div>
+              </div>
+
+              {/* Location */}
+              <div className="flex items-center gap-4">
+                <div className="p-3 bg-blue-100 rounded-full">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-6 h-6 text-blue-600"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 11c1.104 0 2-.896 2-2s-.896-2-2-2-2 .896-2 2 .896 2 2 2z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 22s8-4.5 8-10a8 8 0 10-16 0c0 5.5 8 10 8 10z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-blue-gray-700">
+                    Location
+                  </h3>
+                  <p className="text-blue-gray-600 text-lg">
+                    SHERATON RIYADH HOTEL & TOWERS, RIYADH, SAUDI ARABIA
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Google Map Embed */}
+            <div className="w-full h-80 rounded-2xl overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.9828133820865!2d46.6652457!3d24.727470300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f1d4ebbefb583%3A0x7e368e28b00eae6f!2sSheraton%20Riyadh%20Hotel%20%26%20Towers!5e0!3m2!1sen!2s!4v1761240125803!5m2!1sen!2s"
+                width="600"
+                height="450"
+
+                loading="lazy"
+
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="container flex flex-col mx-auto pt-12">
         <div className="flex flex-col md:flex-row items-center !justify-between gap-8">
           <div className="flex items-center gap-4">
             <Image
