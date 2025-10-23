@@ -175,6 +175,14 @@ const ORGANIZING_COMMITTEE = {
       imageCenter: "down",
     },
     {
+      name: "Dr. Mouath Alnajmi",
+      title: "Committee Member",
+      institution: "King Faisal Specialist Hospital & Research Centre",
+      country: "Saudi Arabia",
+      countryCode: "SA",
+      image: "/doctors/Muath Najmi.jpeg",
+    },
+    {
       name: "Dr. Nawaf Almutairi",
       title: "Committee Member",
       institution: "King Faisal Specialist Hospital & Research Centre",
@@ -182,14 +190,6 @@ const ORGANIZING_COMMITTEE = {
       countryCode: "SA",
       image: "/doctors/Nawaf Almutairi.jpeg",
       imageCenter: "down",
-    },
-    {
-      name: "Dr. Mouath Alnajmi",
-      title: "Committee Member",
-      institution: "King Faisal Specialist Hospital & Research Centre",
-      country: "Saudi Arabia",
-      countryCode: "SA",
-      image: "/doctors/Muath Najmi.jpeg",
     },
   ],
 };
@@ -220,6 +220,14 @@ const SCIENTIFIC_COMMITTEE = {
       countryCode: "SA",
       image: "/doctors/Eyad Gadour.jpeg",
     },
+      {
+      name: "Dr. Ghias Un Nabi Tayyab",
+      title: "Committee Member",
+      institution: "King Faisal Specialist Hospital & Research Centre",
+      country: "Pakistan",
+      countryCode: "PK",
+      image: "/doctors/Ghias un Nabi Tayyab.jpeg",
+    },
     {
       name: "Dr. Hesham Awadh Aljohany",
       title: "Committee Member",
@@ -236,14 +244,7 @@ const SCIENTIFIC_COMMITTEE = {
       countryCode: "EG",
       image: "/doctors/Hussein Okasha.jpeg",
     },
-    {
-      name: "Dr. Ghias Un Nabi Tayyab",
-      title: "Committee Member",
-      institution: "King Faisal Specialist Hospital & Research Centre",
-      country: "Pakistan",
-      countryCode: "PK",
-      image: "/doctors/Ghias un Nabi Tayyab.jpeg",
-    },
+
     {
       name: "Dr. Ibrahim Alhafid",
       title: "Committee Member",
@@ -1330,7 +1331,7 @@ export function Speakers() {
           <Typography
             variant="h4"
             color="blue-gray"
-            className="text-center mb-12"
+            className="text-center mb-2"
             placeholder={undefined}
             onResize={undefined}
             onResizeCapture={undefined}
@@ -1339,6 +1340,19 @@ export function Speakers() {
           >
             Organizing Committee
           </Typography>
+
+           <Typography
+              variant="small"
+              color="gray"
+              className="italic text-center mb-12"
+              placeholder={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+            >
+              Listed in alphabetical order
+            </Typography>
 
           {/* Committee Head */}
           <div className="max-w-md mx-auto mb-8">
@@ -1466,7 +1480,7 @@ export function Speakers() {
           <Typography
             variant="h4"
             color="blue-gray"
-            className="text-center mb-12"
+            className="text-center mb-2"
             placeholder={undefined}
             onResize={undefined}
             onResizeCapture={undefined}
@@ -1475,6 +1489,18 @@ export function Speakers() {
           >
             Scientific Committee
           </Typography>
+           <Typography
+              variant="small"
+              color="gray"
+              className="italic text-center mb-12"
+              placeholder={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+            >
+              Listed in alphabetical order
+            </Typography>
 
           {/* Committee Head */}
           <div className="max-w-md mx-auto mb-8">
