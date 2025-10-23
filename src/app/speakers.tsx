@@ -570,6 +570,16 @@ const NATIONAL_FACULTY = [
     bio: "",
   },
   {
+    name: "Dr. Yousef Qari",
+    title: "Consultant",
+    institution: "King Faisal Specialist Hospital & Research Centre",
+    country: "Saudi Arabia",
+    countryCode: "SA",
+    specialization: "Gastroenterology",
+    image: "/doctors/Yousef-Qari.jpg",
+    bio: "",
+  },
+  {
     name: "Dr. Nawaf Alotaibi",
     title: "Consultant",
     institution: "King Faisal Specialist Hospital & Research Centre",
