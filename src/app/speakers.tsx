@@ -467,7 +467,7 @@ const INTERNATIONAL_FACULTY = [
     country: "Egypt",
     countryCode: "EG",
     specialization: "Hepatogastroenterology & Endoscopy",
-    image: "/doctors/Khaled  Mohamed Ragab.jpeg",
+    image: "/doctors/Khaled.jpg",
     bio: "",
     imageCenter: "down",
   },
@@ -736,7 +736,7 @@ const NATIONAL_FACULTY = [
     country: "Saudi Arabia",
     countryCode: "SA",
     specialization: "Gastroenterology",
-    image: "/doctors/Turki Abdullah Alamri.jpeg",
+    image: "/doctors/Turki.jpg",
     bio: "",
   },
   {
