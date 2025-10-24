@@ -352,7 +352,6 @@ export function SponsoredBy() {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  {/* <span className="text-2xl">🥇</span> */}
                   Gold Sponsors
                 </Typography>
               </div>
@@ -405,7 +404,7 @@ export function SponsoredBy() {
                             className="object-contain max-w-full max-h-full"
                           />
                         </div>
-                        <div
+                      {/*   <div
                           className={`inline-block px-3 py-1 rounded-full ${getTierBadgeColor(
                             sponsor.tier
                           )} mb-2`}
@@ -421,7 +420,7 @@ export function SponsoredBy() {
                           >
                             {sponsor.type}
                           </Typography>
-                        </div>
+                        </div> */}
                       </CardBody>
                     </Card>
                   </motion.div>
