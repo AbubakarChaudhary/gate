@@ -231,7 +231,7 @@ function CountdownTimer() {
 
 function Hero() {
   return (
-    <div className="pt-36 relative min-h-screen w-full overflow-hidden">
+    <div className="pt-36 pb-12 relative min-h-screen w-full overflow-hidden">
       {/* Hero Background Image */}
       <div className="absolute inset-0">
         <Image

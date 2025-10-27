@@ -54,10 +54,10 @@ const PROGRAM_DAYS = [
       {
         time: "8:15 – 8:35",
         title:
-          "Artificial Intelligence in Pancreaticobiliary Diseases - Dr. Ali Alali",
+          "Artificial Intelligence in Pancreaticobiliary Diseases",
         type: "lecture",
-        speaker:
-          "Chairpersons: Eyad Gadour, Fahad Alsohaibani, Mohamed Othman, Mustafa Ibrahim",
+        speaker: "Dr. Ali Alali",
+        chairpersons: "Chairpersons: Fahad Alsohaibani, Mohamed Othman, Mustafa Ibrahim, Yousef Qari",
         description:
           "Exploring the role of AI in diagnosis and treatment of pancreaticobiliary conditions",
       },
@@ -102,10 +102,10 @@ const PROGRAM_DAYS = [
       {
         time: "10:05 – 10:25",
         title:
-          "Are We Doing Better by Performing the Single Use Endoscopic Procedures? - Dr. Benedetto Mangiavillano",
+          "Are We Doing Better by Performing the Single Use Endoscopic Procedures?",
         type: "lecture",
-        speaker:
-          "Chairpersons: Bodour Raheem, Ghias un Nabi Tayyab, Hisham Aljohani, Ibrahim Alhafiz, Mohammed Salah",
+        speaker: "Dr. Benedetto Mangiavillano",
+        chairpersons: "Chairpersons: Ghias un Nabi Tayyab, Eyad Gadour, Hisham Aljohani, Ibrahim Alhafiz, Mohammed Salah",
         description: "Evaluation of single-use endoscopy in clinical practice",
       },
       {
@@ -132,10 +132,10 @@ const PROGRAM_DAYS = [
       {
         time: "1:00 – 1:20",
         title:
-          "Barrett's Esophagus Management in 2025 - Dr. Abdullah Alqaraawi",
+          "Barrett's Esophagus Management in 2025",
         type: "lecture",
-        speaker:
-          "Chairpersons: Abdullah Althiabi, Adel Alghamdi, Ibrahim Balbaid, Mohammed Alzahrani",
+        speaker: "Dr. Abdullah Alqarawi",
+        chairpersons: "Chairpersons: Mohammed Alzahrani, Abdullah Althiabi, Adel Alghamdi, Ibrahim Balbaid",
         description: "Current and future approaches to Barrett's esophagus",
       },
       {
@@ -163,8 +163,8 @@ const PROGRAM_DAYS = [
         time: "2:10 – 3:40",
         title: "Live Endoscopy",
         type: "live-demo",
-        speaker:
-          "Chairpersons: Abdulaziz Almasoud, Abdullah Almtawa, Ammar Alotaibi, Mohamed Alboraie, Turki Alamri",
+        speaker: "",
+        chairpersons: "Chairpersons: Abdulaziz Almasoud, Abdullah Almutawa, Ammar Alotaibi, Mohamed Alboraie, Turki Alamri",
         description: "Live demonstration of upper GI procedures",
       },
       {
@@ -178,16 +178,16 @@ const PROGRAM_DAYS = [
         time: "",
         title: "Session 3: Tissue Resection and Closure",
         type: "session-header",
-        speaker:
-          "",
+        speaker: "",
         description: "Tissue Resection and Closure Session",
       },
       {
         time: "3:55 – 4:15",
         title:
-          "Training and Competency in ESD: Building Expertise in Complex Procedures - Dr. Mohamed Othman",
+          "Training and Competency in ESD: Building Expertise in Complex Procedures",
         type: "lecture",
-        speaker: "Chairpersons: Abdulrahman Alfadda, Bader Alajlan, Majid Alsahafi,Mohamed Abdelhafez",
+        speaker: "Dr. Mohamed Othman",
+        chairpersons: "Chairpersons: Abdulrahman Alfadda, Bader Alajlan, Majid Alsahafi, Mohamed Abdelhafez",
         description: "Educational pathways for ESD competency development",
       },
       {
@@ -250,17 +250,17 @@ const PROGRAM_DAYS = [
       {
         time: "8:30 – 8:50",
         title:
-          "Eosinophilic Esophagitis Management: How the Future Can Be Shaped - Dr. Mashiko Setshedi",
+          "Eosinophilic Esophagitis Management: How the Future Can Be Shaped",
         type: "lecture",
-        speaker: "Chairpersons: Abdullah Alshahrani, Abdullah Alshehri, Abdullah Burwais, Mohammed Albisher, Shakir Bakkari",
+        speaker: "Dr. Mashiko Setshedi",
+        chairpersons: "Chairpersons: Abdullah Alshahrani, Abdullah Burwaiss, Faisal Aladwani, Mohammed Albisher, Shakir Bakkari",
         description: "Future directions in eosinophilic esophagitis treatment",
       },
       {
         time: "8:50 – 10:20",
         title: "Live Endoscopy",
         type: "live-demo",
-        speaker:
-          "Abdullah Alshahrani, Abdullah Alshehri, Abdullah Burwais, Mohammed Albisher, Shakir Bakkari",
+        speaker: "",
         description: "Live demonstration of advanced endoscopic procedures",
       },
       {
@@ -274,15 +274,15 @@ const PROGRAM_DAYS = [
         time: "",
         title: "Session 4: Third Space Endoscopy",
         type: "session-header",
-        speaker:
-          "",
+        speaker: "",
         description: "Third Space Endoscopy Session",
       },
       {
         time: "10:30 – 10:50",
-        title: "A Sparker Debate: Is G-POEM in Gastroparesis Really Effective? - Dr. Hazem Hammad vs Dr. Hiwa Hussein",
+        title: "A Sparker Debate: Is G-POEM in Gastroparesis Really Effective?",
         type: "debate",
-        speaker: "Chairpersons: Abeer Abdellatef, Abid Allehaibi, Mohammed Tahiri, Mohammed Alsaleemi, Saad Alrajhi",
+        speaker: "Dr. Hazem Hammad vs Dr. Hiwa Hussein",
+        chairpersons: "Chairpersons: Abeer Abdellatef, Abid Allehaibi, Mohammed Tahiri, Mohammed Alsaleemi, Saad Alrajhi",
         description: "Interactive debate on G-POEM efficacy in gastroparesis",
       },
       {
@@ -306,7 +306,7 @@ const PROGRAM_DAYS = [
         time: "11:30 – 11:50",
         title: "Submucosal Tunneling and Removal for GI Tumors",
         type: "lecture",
-        speaker: "Dr. Mohamad Elsherbiny",
+        speaker: "Dr. Mohamad Elshebiny",
         description: "Innovative approaches to GI tumor removal",
       },
       {
@@ -327,8 +327,8 @@ const PROGRAM_DAYS = [
         time: "1:30 – 3:00",
         title: "Live Endoscopy",
         type: "live-demo",
-        speaker:
-          "Chairpersons: Abdulrahman Alkhurmi, Ali Bin Mousa, Khaled Ragab, Mohammed Al-Kassas, Mohammed Almubarak",
+        speaker: "",
+        chairpersons: "Chairpersons: Abdulrahman Alkhurmi, Ali Bin Mousa, Khaled Ragab, Mohammed Al-Kassas, Mohammed Almubarak",
         description: "Live demonstration of third space procedures",
       },
       {
@@ -342,23 +342,23 @@ const PROGRAM_DAYS = [
         time: "",
         title: "Session 5: Bariatric and Endohepatology",
         type: "session-header",
-        speaker:
-          "",
+        speaker: "",
         description: "Bariatric and Endohepatology Session",
       },
       {
         time: "3:15 – 3:35",
         title:
-          "Long Term Outcomes of Endoscopic Sleeve Gastroplasty: What Have We Learned? - Prof. Aayed Alqahtani",
+          "Long Term Outcomes of Endoscopic Sleeve Gastroplasty: What Have We Learned?",
         type: "lecture",
-        speaker: "Chairpersons: Abdullh Ahmad Altawili, Adeeb Elghalayini, Ahmed Bazerbashi, Meteb Alabdulwahab",
+        speaker: "Prof. Aayed Alqahtani",
+        chairpersons: "Chairpersons: Abdullah Altawili, Adeeb Elghalayini, Ahmed Bazerbashi, Meteb Alabdulwahab, Bodour Raheem",
         description: "Comprehensive analysis of ESG long-term results",
       },
       {
         time: "3:35 – 3:55",
         title: "Endoscopic Treatment of Weight Regain after Sleeve Gastrectomy",
         type: "lecture",
-        speaker: "Dr. Abdullah Al-Mousa",
+        speaker: "Dr. Abdullah Almusa",
         description: "Management strategies for post-sleeve weight regain",
       },
       {
@@ -501,7 +501,7 @@ const PROGRAM_DAYS = [
         time: "10:45 – 12:15",
         title: "Station 8: Hemostasis Procedures",
         type: "workshop",
-        speaker: "Dr. Abdullh Ahmad Altawili",
+        speaker: "Dr. Abdullah Altawili",
         description: "Hands-on training on endoscopic hemostasis",
       },
       {
@@ -522,7 +522,7 @@ const PROGRAM_DAYS = [
         time: "1:15 – 3:15",
         title: "Station 1: ESG Procedure",
         type: "workshop",
-        speaker: "Dr. Abdullah Al-Mousa",
+        speaker: "Dr. Abdullah Almusa",
         description: "Hands-on training on endoscopic sleeve gastroplasty",
       },
       {
@@ -651,7 +651,7 @@ export function Program() {
           className="text-center mb-16"
         >
           <Typography
-            variant="h6"
+            variant="h2"
             className="text-center mb-2"
             color="light-blue"
             placeholder={undefined}
@@ -749,9 +749,9 @@ export function Program() {
                           <Card
                             className={`hover:shadow-lg transition-all duration-300 ${
                               session.type === "live-demo"
-                                ? "border-l-4 border-red-500"
+                                ? "border-l-4 border-red-500 bg-red-50"
                                 : session.type === "debate"
-                                ? "border-l-4 border-orange-500"
+                                ? "border-l-4 border-orange-500 bg-orange-50"
                                 : session.type === "quiz"
                                 ? "border-l-4 border-fuchsia-500"
                                 : ""
@@ -836,6 +836,20 @@ export function Program() {
                                       onPointerLeaveCapture={undefined}
                                     >
                                       {session.speaker}
+                                    </Typography>
+                                  )}
+
+                                  {session.chairpersons && (
+                                    <Typography
+                                      variant="small"
+                                      className="mb-2 font-semibold text-green-600"
+                                      placeholder={undefined}
+                                      onResize={undefined}
+                                      onResizeCapture={undefined}
+                                      onPointerEnterCapture={undefined}
+                                      onPointerLeaveCapture={undefined}
+                                    >
+                                      {session.chairpersons}
                                     </Typography>
                                   )}
 
