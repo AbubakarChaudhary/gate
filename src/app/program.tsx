@@ -665,15 +665,16 @@ export function Program() {
         </motion.div>
 
         {/* Program Tabs */}
+
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 0.1 }}
           viewport={{ once: true }}
         >
-          <Tabs value="day1" className="w-full">
+          <Tabs value="day1" className="max-w-[900px] mx-auto">
             <TabsHeader
-              className="bg-light-blue-50 p-2"
+              className="bg-light-blue-100 p-2 rounded-xl"
               placeholder={undefined}
               onResize={undefined}
               onResizeCapture={undefined}
@@ -684,7 +685,7 @@ export function Program() {
                 <Tab
                   key={day.id}
                   value={day.id}
-                  className="font-semibold"
+                  className="font-semibold p-4 rounded-xl"
                   placeholder={undefined}
                   onResize={undefined}
                   onResizeCapture={undefined}
@@ -747,7 +748,7 @@ export function Program() {
                           viewport={{ once: true }}
                         >
                           <Card
-                            className={`hover:shadow-lg transition-all duration-300 ${
+                            className={`hover:shadow-lg transition-all duration-300 bg-cyan-50 ${
                               session.type === "live-demo"
                                 ? "border-l-4 border-red-500 bg-red-50"
                                 : session.type === "debate"
