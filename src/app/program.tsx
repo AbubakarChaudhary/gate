@@ -687,7 +687,7 @@ export function Program() {
         >
           <Tabs value="day1" className="max-w-[900px] mx-auto">
             <TabsHeader
-              className="bg-light-blue-50 p-2"
+              className="bg-light-blue-200 p-2"
               placeholder={undefined}
               onResize={undefined}
               onResizeCapture={undefined}
@@ -778,10 +778,10 @@ export function Program() {
                           >
                             {/* Session Title Header */}
                             {block.sessionTitle && (
-                              <div className="mb-4 pb-4 border-b-2 border-slate-300 ">
+                              <div className="mb-4 pb-0 border-b-2 border-slate-300 ">
                                 <Typography
                                   variant="h5"
-                                  className="font-bold text-slate-700 mb-2"
+                                  className="font-bold text-slate-700 mb-2 text-red-300"
                                   placeholder={undefined}
                                   onResize={undefined}
                                   onResizeCapture={undefined}
