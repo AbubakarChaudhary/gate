@@ -299,7 +299,7 @@ function Hero() {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                SHERATON RIYADH HOTEL & TOWERS, RIYADH, SAUDI ARABIA
+                Crowne Plaza Riyadh Rdc Hotel, Riyadh, Saudi Arabia
               </Typography>
             </div>
           </motion.div>
@@ -516,7 +516,7 @@ function Hero() {
                     transition={{ duration: 0.5, delay: 1.6 }}
                   >
                     <SmoothCounter
-                      to={20}
+                      to={22}
                       suffix=""
                       duration={2.2}
                       delay={0.4}

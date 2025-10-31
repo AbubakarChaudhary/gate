@@ -121,7 +121,7 @@ export function Footer() {
                     Location
                   </h3>
                   <p className="text-blue-gray-600 text-lg">
-                    SHERATON RIYADH HOTEL & TOWERS, RIYADH, SAUDI ARABIA
+                    Crowne Plaza Riyadh Rdc Hotel, Riyadh, Saudi Arabia
                   </p>
                 </div>
               </div>
@@ -130,12 +130,10 @@ export function Footer() {
             {/* Google Map Embed */}
             <div className="w-full h-80 rounded-2xl overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.9828133820865!2d46.6652457!3d24.727470300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f1d4ebbefb583%3A0x7e368e28b00eae6f!2sSheraton%20Riyadh%20Hotel%20%26%20Towers!5e0!3m2!1sen!2s!4v1761240125803!5m2!1sen!2s"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.6528076428967!2d46.6352857!3d24.7387971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee28fa598b927%3A0xec1ae00b761951cf!2sCrowne%20Plaza%20Riyadh%20Rdc%20Hotel%20%26%20Convention%20by%20IHG!5e0!3m2!1sen!2s!4v1761941265314!5m2!1sen!2s"
                 width="600"
                 height="450"
-
                 loading="lazy"
-
               ></iframe>
             </div>
           </div>

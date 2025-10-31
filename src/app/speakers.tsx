@@ -362,7 +362,7 @@ const INTERNATIONAL_FACULTY = [
     bio: "",
   },
   {
-    name: "Prof. Mashiko Setshedi",
+    name: "Prof. Mashinko Setshedi",
     title: "Chair & Head, Department of Medicine",
     institution: "University of Cape Town, South Africa",
     country: "South Africa",
@@ -591,13 +591,13 @@ const NATIONAL_FACULTY = [
     bio: "",
   },
   {
-    name: "Dr. Shagran Binkhamis",
+    name: "Dr. Carlos Blazques",
     title: "Consultant",
     institution: "King Faisal Specialist Hospital & Research Centre",
     country: "Saudi Arabia",
     countryCode: "SA",
     specialization: "Gastroenterology",
-    image: "/doctors/Shagran Binkhamis.jpeg",
+    image: "/doctors/Carlos-Blazques.jpg",
     bio: "",
   },
   {

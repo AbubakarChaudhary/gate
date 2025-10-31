@@ -78,7 +78,7 @@ const PROGRAM_DAYS = [
             time: "9:15 – 9:35",
             title: "A Sparker Debate: Who is the winner? EUS or MRCP in Idiopathic Acute Pancreatitis",
             type: "debate",
-            speaker: "Dr. Hussein Okasha and Dr. Shagran Binkhamis",
+            speaker: "Dr. Hussein Okasha and Dr. Carlos Blazques",
           },
           {
             time: "9:35 – 9:50",
@@ -101,7 +101,7 @@ const PROGRAM_DAYS = [
       },
       {
         type: "lecture-block",
-        chairpersons: "Chairpersons: Ghias un Nabi Tayyab, Eyad Gadour, Hisham Aljohani, Ibrahim Alhafiz, Mohammed Salah",
+        chairpersons: "Chairpersons:  Eyad Gadour, Ghias un Nabi Tayyab, Hisham Aljohani, Ibrahim Alhafiz, Mohammed Salah",
         sessions: [
           {
             time: "10:05 – 10:25",
@@ -111,7 +111,7 @@ const PROGRAM_DAYS = [
           },
           {
             time: "10:25 – 12:00",
-            title: "Live Endoscopy",
+            title: "Live Endoscopy 1",
             type: "live-demo",
             speaker: "",
           },
@@ -131,7 +131,7 @@ const PROGRAM_DAYS = [
       {
         type: "session-header",
         sessionTitle: "Session 2: Interventional Upper GI Endoscopy",
-        chairpersons: "Chairpersons: Mohammed Alzahrani, Abdullah Althiabi, Adel Alghamdi, Ibrahim Balbaid",
+        chairpersons: "Chairpersons: Abdullah Althiabi, Adel Alghamdi, Bodour Raheem, Ibrahim Balbaid",
         sessions: [
           {
             time: "1:00 – 1:20",
@@ -165,7 +165,7 @@ const PROGRAM_DAYS = [
         sessions: [
           {
             time: "2:10 – 3:40",
-            title: "Live Endoscopy",
+            title: "Live Endoscopy 2",
             type: "live-demo",
             speaker: "",
           },
@@ -263,11 +263,11 @@ const PROGRAM_DAYS = [
             time: "8:30 – 8:50",
             title: "Eosinophilic Esophagitis Management: How the Future Can Be Shaped",
             type: "lecture",
-            speaker: "Dr. Mashiko Setshedi",
+            speaker: "Dr. Mashinko Setshedi",
           },
           {
             time: "8:50 – 10:20",
-            title: "Live Endoscopy",
+            title: "Live Endoscopy 3",
             type: "live-demo",
             speaker: "",
           },
@@ -338,7 +338,7 @@ const PROGRAM_DAYS = [
         sessions: [
           {
             time: "1:30 – 3:00",
-            title: "Live Endoscopy",
+            title: "Live Endoscopy 4",
             type: "live-demo",
             speaker: "",
           },
@@ -358,7 +358,7 @@ const PROGRAM_DAYS = [
       {
         type: "session-header",
         sessionTitle: "Session 5: Bariatric and Endohepatology",
-        chairpersons: "Chairpersons: Abdullah Altawili, Adeeb Elghalayini, Ahmed Bazerbashi, Meteb Alabdulwahab, Bodour Raheem",
+        chairpersons: "Chairpersons: Abdullah Altawili, Adeeb Elghalayini, Ahmed Bazerbashi, Meteb Alabdulwahab",
         sessions: [
           {
             time: "3:15 – 3:35",
@@ -399,7 +399,7 @@ const PROGRAM_DAYS = [
             time: "4:55 – 5:15",
             title: "Closure and Pictures",
             type: "ceremony",
-            speaker: "Conference Committee",
+            speaker: "",
           },
         ],
       },
@@ -687,7 +687,7 @@ export function Program() {
         >
           <Tabs value="day1" className="max-w-[900px] mx-auto">
             <TabsHeader
-              className="bg-light-blue-200 p-2"
+              className="flex-wrap md:flex-nowrap bg-light-blue-200 p-2"
               placeholder={undefined}
               onResize={undefined}
               onResizeCapture={undefined}
@@ -705,7 +705,7 @@ export function Program() {
                   onPointerEnterCapture={undefined}
                   onPointerLeaveCapture={undefined}
                 >
-                  <div className="flex items-center gap-2">
+                  <div className="flex  items-center gap-2">
                     <CalendarDaysIcon className="h-5 w-5" />
                     <div className="text-left">
                       <div>{day.label}</div>
@@ -818,7 +818,7 @@ export function Program() {
                                 const colorClass = getSessionColor(session.type);
 
                                 return (
-                                  <div
+                                <div
                                     key={idx}
                                     className={`p-4 rounded-lg transition-all duration-200 ${
                                       session.type === "live-demo"
@@ -829,6 +829,10 @@ export function Program() {
                                         ? "bg-gray-100"
                                         : session.type === "workshop-header"
                                         ? "bg-green-50 border-l-4 border-green-500"
+                                        : session.title === "Legacy Awards for Outstanding Contribution in Endoscopy"
+                                        ? "bg-yellow-50 border-l-4 border-yellow-500"
+                                        : session.title === "The GATE Challenge Quiz"
+                                        ? "bg-yellow-50 border-l-4 border-yellow-500"
                                         : "bg-white border-l-4 border-gray-200 hover:border-light-blue-400"
                                     }`}
                                   >

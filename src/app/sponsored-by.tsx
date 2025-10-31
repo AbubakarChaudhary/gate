@@ -114,6 +114,12 @@ const INDUSTRY_SPONSORS = [
     type: "Partner",
     tier: "regular",
   },
+  {
+    name: "Vision Medical",
+    logo: "/image/sponsors/regular/Vision Medical.jpg",
+    type: "Partner",
+    tier: "regular",
+  },
 ];
 
 const getTierColor = (tier: string) => {
@@ -357,7 +363,7 @@ export function SponsoredBy() {
               </div>
               <div className="flex-1 h-px bg-gradient-to-l from-transparent to-yellow-300"></div>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-3xl mx-auto">
               {INDUSTRY_SPONSORS.filter((s) => s.tier === "gold").map(
                 (sponsor, idx) => (
                   <motion.div
@@ -388,23 +394,24 @@ export function SponsoredBy() {
                       <div className="absolute inset-0 bg-gradient-to-r from-transparent via-yellow-100/30 to-transparent -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
 
                       <CardBody
-                        className="p-8 text-center relative z-10"
+                        className="p-4 text-center relative z-10 "
                         placeholder={undefined}
                         onResize={undefined}
                         onResizeCapture={undefined}
                         onPointerEnterCapture={undefined}
                         onPointerLeaveCapture={undefined}
+
                       >
-                        <div className="w-54 h-36 bg-white rounded-xl flex items-center justify-center mx-auto mb-6 shadow-md border-2 border-yellow-100 group-hover:border-yellow-200 transition-colors duration-300 p-3">
+                        <div className="w-48 h-32 bg-white rounded-xl flex items-center justify-center mx-auto  shadow-md border-2 border-yellow-100 group-hover:border-yellow-200 transition-colors duration-300 ">
                           <Image
                             src={sponsor.logo}
                             alt={`${sponsor.name} logo`}
-                            width={90}
-                            height={90}
+                            width={120}
+                            height={120}
                             className="object-contain max-w-full max-h-full"
                           />
                         </div>
-                      {/*   <div
+                        {/*   <div
                           className={`inline-block px-3 py-1 rounded-full ${getTierBadgeColor(
                             sponsor.tier
                           )} mb-2`}
@@ -450,7 +457,7 @@ export function SponsoredBy() {
               <div className="flex-1 h-px bg-gradient-to-l from-transparent to-orange-300"></div>
             </div>
             <div className="flex justify-center">
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-100 max-w-6xl mx-auto">
                 {INDUSTRY_SPONSORS.filter((s) => s.tier === "bronze").map(
                   (sponsor, idx) => (
                     <motion.div
@@ -488,12 +495,12 @@ export function SponsoredBy() {
                           onPointerEnterCapture={undefined}
                           onPointerLeaveCapture={undefined}
                         >
-                          <div className="w-36 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-3 shadow-sm border border-orange-100 group-hover:border-orange-200 transition-colors duration-300 p-2">
+                          <div className="w-48 h-32 bg-white rounded-lg flex items-center justify-center mx-auto mb-3 shadow-sm border border-orange-100 group-hover:border-orange-200 transition-colors duration-300 p-2">
                             <Image
                               src={sponsor.logo}
                               alt={`${sponsor.name} logo`}
-                              width={60}
-                              height={60}
+                              width={120}
+                              height={120}
                               className="object-contain max-w-full max-h-full"
                             />
                           </div>
@@ -527,7 +534,7 @@ export function SponsoredBy() {
               <div className="flex-1 h-px bg-gradient-to-l from-transparent to-light-blue-300"></div>
             </div>
             <div className="flex justify-center">
-              <div className="flex flex-wrap justify-center gap-4 max-w-4xl">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-3xl mx-auto">
                 {INDUSTRY_SPONSORS.filter((s) => s.tier === "regular").map(
                   (sponsor, idx) => (
                     <motion.div
@@ -537,7 +544,7 @@ export function SponsoredBy() {
                       transition={{ duration: 0.3, delay: idx * 0.03 }}
                       viewport={{ once: true }}
                       whileHover={{ scale: 1.05 }}
-                      className="relative w-48"
+                      className="relative "
                     >
                       <Card
                         className={`${getTierColor(
@@ -565,12 +572,12 @@ export function SponsoredBy() {
                           onPointerEnterCapture={undefined}
                           onPointerLeaveCapture={undefined}
                         >
-                          <div className="w-36 h-24 bg-white rounded-lg flex items-center justify-center mx-auto mb-3 shadow-sm border border-light-blue-100 group-hover:border-light-blue-200 transition-colors duration-300 p-2">
+                          <div className="w-48 h-32 bg-white rounded-lg flex items-center justify-center mx-auto mb-3 shadow-sm border border-light-blue-100 group-hover:border-light-blue-200 transition-colors duration-300 p-2">
                             <Image
                               src={sponsor.logo}
                               alt={`${sponsor.name} logo`}
-                              width={60}
-                              height={60}
+                              width={120}
+                              height={120}
                               className="object-contain max-w-full max-h-full"
                             />
                           </div>
