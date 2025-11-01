@@ -161,7 +161,7 @@ const PROGRAM_DAYS = [
       },
       {
         type: "live-demo-block",
-        chairpersons: "Chairpersons: Abdulaziz Almasoud, Abdullah Almutawa, Ammar Alotaibi, Mohamed Alboraie, Turki Alamri",
+        chairpersons: "Chairpersons: Abdulaziz Almasoud, Abdullah Almutawa, Ammar Alotaibi, Mohamed Alboraie, Mohammed Albisher",
         sessions: [
           {
             time: "2:10 – 3:40",
@@ -257,7 +257,7 @@ const PROGRAM_DAYS = [
     sessionBlocks: [
       {
         type: "lecture-block",
-        chairpersons: "Chairpersons: Abdullah Alshahrani, Abdullah Burwaiss, Faisal Aladwani, Mohammed Albisher, Shakir Bakkari",
+        chairpersons: "Chairpersons: Abdullah Alshahrani, Abdullah Burwaiss, Faisal Aladwani, Shakir Bakkari, Turki Alamri",
         sessions: [
           {
             time: "8:30 – 8:50",
